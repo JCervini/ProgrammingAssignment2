@@ -5,7 +5,7 @@
 ## makeCacheMatrix() creates a list for storing the matrix and caching its inverse
 ## cacheSolve() takes above function’s output and will return a cached inverse 
 ##            or calculate the inverse, cache it, then return it
-## example: m  <-  matrix(1:4)
+## example: m  <-  matrix(1:4,2,2)
 ##          cm <-  makeCacheMatrix(m)
 ##          inv <- cacheSolve(cm)
 ##
